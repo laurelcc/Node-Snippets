@@ -7,8 +7,8 @@ if (!rootPath) {
 }
 
 rootPath = path.resolve(rootPath);
-// renameRecursive(rootPath, /-素材派/, '');
-nameAppend(rootPath, '-素材派');
+renameRecursive(rootPath, /亮亮图文\-+/, '');
+// nameAppend(rootPath, '-素材派');
 
 /**
  * 递归去掉关键词
